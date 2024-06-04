@@ -3,9 +3,9 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_DB: prisma
-      POSTGRES_USER: prisma
-      POSTGRES_PASSWORD: prisma
+      POSTGRES_DB: prisma # Edit this data
+      POSTGRES_USER: prisma # Edit this data
+      POSTGRES_PASSWORD: prisma # Edit this data
     ports:
       - "5432:5432"
     volumes:
